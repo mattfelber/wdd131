@@ -72,13 +72,19 @@ body {
     padding-top: 3rem;
     flex: 1 1 5rem;
 	margin: 0;
+
 }
 
 .flex-article {
-	
+	margin-left: auto;
+	margin-right: auto;
     color: var(--colorArticle);
     padding-top: 3rem;
     flex: 3 3;
+	
+	text-align: left;
+
+	
 	
 }
 
@@ -87,10 +93,21 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 40%;
 
 }
 
+/*Aligning images and text*/
+.content-container {
+    display: flex;
+    align-items: center;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/**/
 
 .flex-aside {
 
