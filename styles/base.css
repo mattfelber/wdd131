@@ -118,8 +118,10 @@ ul {
     background-color: var(--colorChamoise);
     padding-top: 3rem;
     padding-bottom: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 
-	
 }
 /*LAST MODIFIED---------------------------*/
 p {
@@ -127,13 +129,9 @@ p {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem 0.75rem;
 	background-color: #eee;
+	border-radius: 10px;
 }
 
-.highlight {
-	color: navy;
-	font-weight: 700;
-	font-family: hebrew;
-}
 
 /*---------------------------------------*/
 
