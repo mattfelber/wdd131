@@ -86,11 +86,12 @@ body {
 
 .links:hover {
     color: var(--colorLinks);
+	font-weight: 900;
 }
 
 /*/////////////////////////////**/
 
-
+/*SKILLS container*/
 .flex-nav {
 	color: var(--colorChamoise);
     padding-top: 3rem;
@@ -98,11 +99,14 @@ body {
 	margin: 0;
 	justify-content: flex-start;
 	
-
 }
 
+ul {
+    list-style-type: none;
+    text-align: center;
+}
 
-
+/*ABOUT ME container*/
 .flex-article {
 	margin-left: auto;
 	margin-right: auto;
@@ -125,7 +129,7 @@ body {
 
 }
 
-/*Aligning images and text*/
+/*BOUT ME container alignment of pictures and text*/
 .content-container {
 	margin-left: auto;
 	margin-right: auto;
@@ -136,7 +140,7 @@ body {
 }
 
 
-/**/
+/*RESOUCES container and links*/
 
 .flex-aside {
 	
@@ -151,19 +155,18 @@ body {
 	flex-direction: column;
 }
 
-ul {
-    list-style-type: none;
-    text-align: center;
+.flex-aside nav a {
+	text-decoration: underline;
+	color: var(--colorChamoise);
+
 }
 
-/* Set the font size bigger for the first list item */
-.flex-nav ul li:first-child,
-.flex-aside ul li:first-child {
-    font-size: 28px; 
+.flex-aside nav a:hover {
+    color: var(--colorLinks);
+	font-weight: 900;
 }
 
-
-
+/*FOOTER container*/
 .flex-footer {
     background-color: var(--colorChamoise);
     padding-top: 3rem;
@@ -177,7 +180,7 @@ ul {
 .flex-footer h2 {
 	color: white;
 }
-/*LAST MODIFIED---------------------------*/
+/*LAST MODIFIED appearance ---------------------------*/
 p {
 	margin: 0.25rem;
 	border: 1px solid rgba(0, 0, 0, 0.1);
@@ -188,8 +191,7 @@ p {
 }
 
 
-/*---------------------------------------*/
-
+/*////////////////////////////////////////////////////*/
 
 @media all and (max-width: 540px) {
     .flex-main {
