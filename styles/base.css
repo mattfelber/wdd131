@@ -118,6 +118,10 @@ ul {
     background-color: var(--colorChamoise);
     padding-top: 3rem;
     padding-bottom: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
 }
 /*LAST MODIFIED---------------------------*/
 p {
@@ -132,6 +136,7 @@ p {
 	font-weight: 700;
 	font-family: hebrew;
 }
+
 /*---------------------------------------*/
 
 
