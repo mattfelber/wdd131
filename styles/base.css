@@ -168,6 +168,10 @@ ul {
 	justify-content: space-around;
 
 }
+
+.flex-footer h2 {
+	color: white;
+}
 /*LAST MODIFIED---------------------------*/
 p {
 	margin: 0.25rem;
