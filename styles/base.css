@@ -80,6 +80,7 @@ body {
 /*Inner page links*/
 .links {
 	text-decoration: none;
+	color: var(--colorChamoise);
 
 }
 
@@ -138,13 +139,17 @@ body {
 /**/
 
 .flex-aside {
-
+	
 	color: var(--colorChamoise);
     padding-top: 3rem;
     flex: 1 1 5rem;
 
 }
 
+.flex-aside nav {
+	display: flex;
+	flex-direction: column;
+}
 
 ul {
     list-style-type: none;
