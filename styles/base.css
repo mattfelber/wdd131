@@ -129,6 +129,7 @@ p {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem 0.75rem;
 	background-color: #eee;
+	color: var(--colorFlame);
 	border-radius: 10px;
 }
 
