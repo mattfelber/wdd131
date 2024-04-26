@@ -1,0 +1,95 @@
+
+
+* {
+    margin: 2px;
+}
+
+:root {
+    --colorHeaderAndFooter: #E6E8E6;
+    --colorMain: #9FB8AD;
+    --colorNav: #CED0CE;
+    --colorArticle: #9FB8AD;
+    --colorAside: #CED0CE;
+    --colorFont: #000505;
+  }
+
+
+  
+body {
+    font-size: 24px;
+    color: var(--colorFont);
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-header {
+    background-color: var(--colorHeaderAndFooter);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid rgba(0, 0, 0, .5);
+}
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, .2);
+}
+nav ul li a:hover {
+    background-color: #89B2C0;
+}
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+
+
+
+
+.flex-main {
+    display: flex;
+    flex: 1;
+}
+
+.flex-tabforlinks {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+.flex-nav {
+    background-color: var(--colorNav);
+    padding-top: 3rem;
+    flex: 1 1 5rem;
+}
+
+.flex-article {
+    background-color: var(--colorArticle);
+    padding-top: 3rem;
+    flex: 3 3;
+}
+
+.flex-aside {
+    background-color: var(--colorAside);
+    padding-top: 3rem;
+    flex: 1 1 5rem;
+}
+
+.flex-footer {
+    background-color: var(--colorHeaderAndFooter);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+@media all and (max-width: 540px) {
+    .flex-main {
+        flex-direction: column;
+    }
+}
