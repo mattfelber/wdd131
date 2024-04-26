@@ -72,6 +72,7 @@ body {
     padding-top: 3rem;
     flex: 1 1 5rem;
 	margin: 0;
+	justify-content: flex-start;
 
 }
 
@@ -81,8 +82,8 @@ body {
     color: var(--colorArticle);
     padding-top: 3rem;
     flex: 3 3;
-	
-	text-align: left;
+	text-align: justify;
+	justify-content: center;
 
 	
 	
@@ -99,11 +100,12 @@ body {
 
 /*Aligning images and text*/
 .content-container {
+	margin-left: auto;
+	margin-right: auto;
     display: flex;
     align-items: center;
 	background-color: white;
-	margin-left: auto;
-	margin-right: auto;
+
 }
 
 
