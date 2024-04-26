@@ -1,62 +1,117 @@
+
+
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 2px;
 }
 
+:root {
+    --colorHeaderAndFooter: #E6E8E6;
+    --colorMain: #9FB8AD;
+    --colorNav: #CED0CE;
+    --colorArticle: #9FB8AD;
+    --colorAside: #CED0CE;
+    --colorFont: #000505;
+    --colorLinks: #23022E;
+
+	--colorBlack: #000000;
+	--colorRawUmber: #855A42;
+	--colorOxfordBlue: #1A2C47;
+	--colorSilver: #D0C2BD;
+	--colorMortuum: #472928;
+	--colorAirForceBlue: #537d8d;
+	--colorChamoise: #b07c5d;
+	--colorFlame: #e4572e;
+  }
+
+
+  
 body {
-	font-family: "Sansita", sans-serif;
+    font-size: 24px;
+    color: var(--colorFont);
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
-/* mobile **************************/
-header {
-	background-color: #bbb;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 20px;
-	border: 1px solid rgba(0, 0, 0, 0.1);
+.flex-header {
+    background-color: var(--colorOxfordBlue);
+	color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
-header,
-main {
-	margin: 0 auto;
+.flex-main {
+    display: flex;
+    flex: 1;
+}
+/*LINKS*/
+.flex-links {
+	background-color: var(--colorArticle);
+    display: flex;
+    align-items: center;
 }
 
-h1 {
-	font-size: 2rem;
+.flex-links a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    color: var(--colorMortuum)	;
 }
 
-nav {
-	background-color: #36454f;
-	margin: 0 auto;
-	max-width: 800px;
+.flex-links a:hover {
+    background-color: #CED0CE;
+    color: var(--colorLinks);
 }
-nav ul {
-	list-style-type: none;
+/*////////////////////////////*/
+
+.flex-nav {
+	color: var(--colorChamoise);
+    padding-top: 3rem;
+    flex: 1 1 5rem;
 }
-nav a {
+
+.flex-article {
+	
+    color: var(--colorArticle);
+    padding-top: 3rem;
+    flex: 3 3;
+}
+
+.flex-article img {
+	
 	display: block;
-	color: #fff;
-	text-align: center;
-	padding: 1rem;
-	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+
 }
 
-nav a:hover {
-	text-decoration:overline;
+
+.flex-aside {
+	
+	color: var(--colorChamoise);
+    padding-top: 3rem;
+    flex: 1 1 5rem;
 }
 
-.active {
-	color: yellow;
+
+
+ul {
+    list-style-type: none;
+    text-align: center;
 }
 
-/* Larger Views ******************************/
-@media (min-width: 640px) {
-	nav ul {
-		display: flex;
-	}
-	nav ul li {
-		flex: 1 1 100%;
-	}
+.flex-footer {
+    background-color: var(--colorChamoise);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+@media all and (max-width: 540px) {
+    .flex-main {
+        flex-direction: column;
+    }
 }

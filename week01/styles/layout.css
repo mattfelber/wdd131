@@ -36,7 +36,7 @@ body {
     display: flex;
     flex: 1;
 }
-/*    LINKS BAR                 */
+/*    LINKS BAR                 
 .flex-links {
     display: flex;
     align-self: center;
@@ -54,7 +54,7 @@ body {
     background-color: #CED0CE;
     color: var(--colorLinks);
 }
-/*////////////////////////////*/
+////////////////////////////*/
 
 .flex-nav {
     background-color: var(--colorNav);

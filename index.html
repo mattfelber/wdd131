@@ -2,39 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" description="WDD 131 - Dynamic Web Fundamentals | Matt Felber | Home Page">
-    <title>WDD 131 - Dynamic Web Fundamentals - Matt Felber</title>
-    <link rel="stylesheet" href="/styles/base.css">
-    <script src="/scripts/getdates.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js"></script>
 </head>
 <body>
 
-    <header>
-        <!--
-        <h1>Page</h1>
-        <h1>Page</h1>
-        <h1>Page</h1>
-        <h1>Page</h1>
-        -->
-        <nav>
-            <ul>
-                <li><a href="https://linkedin.com/in/matheusfelber">LinkedIn</a></li>
-                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/nt/matt/5?lang=eng">Scripture</a></li>
-                <li><a href="/html/">Project</a></li>
-            </ul>
+
+    <header class="flex-header">
+        <h1>WDD131: Dynamic Web Fundamentals</h1>
+    </header>
+    
+    <nav class="flex-links">
+        <a href="www.linkedin.com/in/matheusfelber" title="www.linkedin.com/in/matheusfelber">LinkedIn</a>
+        <a href="www.github.com/mattfelber" title="www.github.com/mattfelber">Github</a>
+        <a href="www.byui.instructure.com" title="www.byui.instructure.com">I-Learn</a>
+        <a href="#" title="Link Under Maintenance">Final</a>
+
+    </nav>
+    <main class="flex-main">
+        
+
+        <nav class="flex-nav">
+            <UL>
+                <h3>Soft Skills 🔥</h3>
+                <li>Problem-Solving</li>
+                <li>Resilience</li>
+                <li>Collaboration</li>
+                <li>Learning</li>
+                <li>Organization</li>
+            </UL>
         </nav>
-
-
+        <article class="flex-article">
+            <h2>About Me</h2>
+            Hello, I'm Matheus. I like developing software of all kinds.
+            I learned to code in Python, Java, and C#. 
+            I'm currently building my web development skills! The learning process is the most rewarding, my
+            mission in life is to learn. 
+            <img src="images/profile.png" alt="profile" >
+        </article>
+        
+        <aside class="flex-aside">
+            <UL>
+                <h3>Hard Skills 🔥</h3>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C#</li>
+                <li>Linux</li>
+                <li>SQL</li>
+            </UL>
+        </aside>
+    </main>
 
     
-    </header>
-    <main></main>
-    <footer>
-        <p>
-            Matheus Felber | SP 
-            <span id="currentyear"></span>
-        </p>
-        <p>Last Modified</p>
+    <footer class="flex-footer">
+        <h6>©️2024 ↗️ MATHEUS FELBER ↖️ Moon</h6>
     </footer>
 
 </body>
