@@ -4,7 +4,10 @@
     margin: 2px;
 }
 
+
 :root {
+
+	/*List of colors*/
     --colorHeaderAndFooter: #E6E8E6;
     --colorMain: #9FB8AD;
     --colorNav: #CED0CE;
@@ -25,7 +28,7 @@
 	--colorFlagYellow: #fee533;
   }
 
-
+/*/////////////////////////////**/
   
 body {
     font-size: 24px;
@@ -47,7 +50,8 @@ body {
     display: flex;
     flex: 1;
 }
-/*LINKS*/
+
+/*TOP NAVIGATION BAR LINKS*/
 .flex-links {
 	background-color: var(--colorArticle);
     display: flex;
@@ -63,11 +67,28 @@ body {
     color: var(--colorMortuum)	;
 }
 
+
 .flex-links a:hover {
     background-color: #CED0CE;
     color: var(--colorLinks);
 }
-/*////////////////////////////*/
+
+/*/////////////////////////////**/
+
+
+
+/*Inner page links*/
+.links {
+	text-decoration: none;
+
+}
+
+.links:hover {
+    color: var(--colorLinks);
+}
+
+/*/////////////////////////////**/
+
 
 .flex-nav {
 	color: var(--colorChamoise);
@@ -75,8 +96,11 @@ body {
     flex: 1 1 5rem;
 	margin: 0;
 	justify-content: flex-start;
+	
 
 }
+
+
 
 .flex-article {
 	margin-left: auto;
