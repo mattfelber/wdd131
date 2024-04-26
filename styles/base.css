@@ -70,6 +70,7 @@ body {
 	color: var(--colorChamoise);
     padding-top: 3rem;
     flex: 1 1 5rem;
+	margin: 0;
 }
 
 .flex-article {
@@ -77,6 +78,7 @@ body {
     color: var(--colorArticle);
     padding-top: 3rem;
     flex: 3 3;
+	
 }
 
 .flex-article img {
@@ -90,18 +92,26 @@ body {
 
 
 .flex-aside {
-	
+
 	color: var(--colorChamoise);
     padding-top: 3rem;
     flex: 1 1 5rem;
-}
 
+}
 
 
 ul {
     list-style-type: none;
     text-align: center;
 }
+
+/* Set the font size bigger for the first list item */
+.flex-nav ul li:first-child,
+.flex-aside ul li:first-child {
+    font-size: 28px; 
+}
+
+
 
 .flex-footer {
     background-color: var(--colorChamoise);
