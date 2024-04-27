@@ -102,7 +102,7 @@ body {
     flex: 1 1 5rem;
 	margin: 0;
 	justify-content: flex-start;
-	
+    
 }
 
 ul {
@@ -119,6 +119,7 @@ ul {
     flex: 3 3;
 	text-align: justify;
 	justify-content: center;
+    
 
 	
 	
