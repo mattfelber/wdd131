@@ -12,6 +12,7 @@
     --colorMain: #9FB8AD;
     --colorNav: #CED0CE;
     --colorArticle: #9FB8AD;
+    --colorArticleButton: #abcebf;
     --colorAside: #CED0CE;
     --colorFont: #000505;
     --colorLinks: #23022E;
@@ -65,7 +66,9 @@ body {
     text-decoration: none;
     text-align: center;
     padding: 1px;
-    color: var(--colorMortuum)	;
+    color: var(--colorMortuum);
+    background-color: var(--colorArticleButton);
+    border-radius: 10%;
 }
 
 
