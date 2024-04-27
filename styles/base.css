@@ -55,7 +55,8 @@ body {
 .flex-links {
 	background-color: var(--colorArticle);
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+    
 	
 }
 
