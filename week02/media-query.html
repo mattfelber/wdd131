@@ -14,11 +14,34 @@
     <script type="text/javascript">
         function funcClick() {
             var x = document.getElementById("paragg");
-            x.innerHTML = Date();
 
-            var array = [1,2,3,4,5,6,7]
+            const DAYS = 6;
+            const LIMIT = 30;
+            let LotteryNumbers = [11, 42, 33, 64, 29, 37, 44];
+
+
+            let i=0;
+            let result = []
+            while(i<LotteryNumbers.length) {
+                result.push(" " + LotteryNumbers[i]) ;
+                
+                i++
+            }
+            x.innerHTML = result;
+
+            /*
+            FOR LOOP 1
             i = 0;
-            for( ){}
+            result = [];
+            for(i=0; i<studentReport.length; i++){
+                result += studentReport[i] + "<br>";
+            }
+            x.innerHTML = result;
+*/
+            // FOR LOOP 2
+            //x.innerHTML = Date();
+
+
         }
     </script>
 </head>
@@ -44,7 +67,7 @@
     
     <footer>
         Matt Felber
-        <p id="paragg"> Get date: </p>
+        <p id="paragg"> Get  lottery numberz: </p>
         <button type="button" onclick="funcClick()">Click here</button>
     </footer>
 
