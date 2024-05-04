@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM</title>
+    <meta name="description" content="BOM learning page"> 
+    <meta name="author" content="Matheus Felber"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <link rel="stylesheet" href="styles/bom.css">
+    <script type="text/javascript">
+        function funcClick() {
+            var x = document.getElementById("paragg");
+            x.innerHTML = Date();
+            }  
+
+    </script>
+</head>
+
+
+<body>
+    <header>
+        <h1>Media Query Example</h1>
+    </header>
+
+    <main>
+        <label for="favchap">Enter Book and Chapter: </label>
+        <input type="text" id="favchap" placeholder="Alma 5">
+        <button type="submit">Add Chapter</button>
+        <ul id="list"></ul>
+    </main>
+
+    
+    <footer>
+        Get Date:
+        <p id="paragg"> </p>
+        <button type="button" onclick="funcClick()">Click here</button>
+    </footer>
+
+</body>
+
+
+</html>
