@@ -1,0 +1,6 @@
+  /* Show 3 images in a row for large screens */
+  @media only screen and (min-width: 768px) {
+    .container {
+      grid-template-columns: repeat(3, 1fr); /* Three columns */
+    }
+  }

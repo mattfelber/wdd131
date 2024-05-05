@@ -103,7 +103,7 @@ nav {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	background-color: #bed;
 	max-width: 580px;
-	height: 100vh;
+	/*height: 100vh;*/
 }
 
 /* large view navigation ************************************/
@@ -154,12 +154,6 @@ section {
     place-items: center;
   }
   
-  /* Show 3 images in a row for large screens */
-  @media only screen and (min-width: 768px) {
-    .container {
-      grid-template-columns: repeat(3, 1fr); /* Three columns */
-    }
-  }
   
   /* Show 2 images in a row for medium screens */
   @media only screen and (max-width: 767px) and (min-width: 481px) {
@@ -247,9 +241,3 @@ p {
 	border-radius: 10px;
 }
 
-
-@media all and (max-width: 540px) {
-    .flex-main {
-        flex-direction: column;
-    }
-}
