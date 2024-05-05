@@ -108,12 +108,13 @@ nav {
 
 /* large view navigation ************************************/
  
+@media (min-width: 37.5em) {
 	h1 {
 		font-size: 2.5rem;
 		margin-left: 0;
 		text-align: center;
 	}
-
+	
 	h2 {
 		font-size: 2rem;
 		text-align: center;
@@ -131,10 +132,12 @@ nav {
 		display: block;
 		flex: 1 1 100%;
 	}
-
+	
 	.stuff {
 		margin: 1rem auto;
 	}
+}
+
 
 
 
@@ -214,7 +217,7 @@ body {
 
 /*FOOTER container*/
 .flex-footer {
-    background-color: var(--colorChamoise);
+    background-color: white;
     padding-top: 3rem;
     padding-bottom: 3rem;
 	display: flex;
