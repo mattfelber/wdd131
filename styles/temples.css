@@ -107,7 +107,7 @@ nav {
 }
 
 /* large view navigation ************************************/
-@media (min-width: 37.5em) {
+ 
 	h1 {
 		font-size: 2.5rem;
 		margin-left: 0;
@@ -135,12 +135,8 @@ nav {
 	.stuff {
 		margin: 1rem auto;
 	}
-}
 
-/*
-section {margin: 1rem auto; max-width: 960px; background-color: red;}
-.container {display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); grid-gap: 25px;place-items: center;}
-*/
+
 
 section {
     margin: 1rem auto;
@@ -194,8 +190,7 @@ body {
     background-color: green;
 }
 
-/*TOP NAVIGATION BAR LINKS*/
-
+/*TOP NAVBAR LINKS*/
 
 .flex-links {
 	background-color: var(--colorArticle);
@@ -231,7 +226,8 @@ body {
 .flex-footer h2 {
 	color: white;
 }
-/*LAST MODIFIED appearance ---------------------------*/
+
+/*Last modified ---------------------------*/
 p {
 	margin: 0.25rem;
 	border: 1px solid rgba(0, 0, 0, 0.1);
