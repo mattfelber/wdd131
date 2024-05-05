@@ -68,6 +68,8 @@ h2 {
 	content: "📍";  /* just a wayfinding symbol for the user */
 }
 
+/*-----------------------------------------------------------------------*/
+
 .stuff {
 	margin: 0.5rem;
 	border: 1px solid rgba(0, 0, 0, 0.1);
@@ -77,70 +79,20 @@ h2 {
 }
 
 
-  .container {
-    display: grid;
-    grid-gap: 50px; /* Spacing between images */
-    place-items: center;
-  }
-  
-  
-  /* Show 2 images in a row for medium screens */
-  @media only screen and (max-width: 767px) and (min-width: 481px) {
-    .container {
-      grid-template-columns: repeat(2, 1fr); /* Two columns */
-    }
-  }
-  
-  /* Show 1 image per row for small screens */
-  @media only screen and (max-width: 480px) {
-    .container {
-      grid-template-columns: repeat(1, 1fr); /* One column */
-    }
-  }
+.container {
+display: grid;
+grid-gap: 50px; /* Spacing between images */
+place-items: center;
+}
+
 
 figure {background-color:#fff;}
 img { width: 100%; height: auto; /*margin: .5rem*/;}
 figcaption {font-size: smaller;}
-
 .hover:hover {box-shadow: 0 0 50px #333;}
 
-body {
-    font-size: 24px;
-    color: var(--colorFont);
-    height: 100vh;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-}
 
-
-.flex-main {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    background-color: green;
-}
-
-/*TOP NAVBAR LINKS*/
-.flex-links {
-	background-color: var(--colorArticle);
-    display: flex;
-    justify-content: space-around;
-    
-	
-}
-
-.flex-links a {
-	flex: 1;
-    text-decoration: none;
-    text-align: center;
-    padding: 1px;
-    color: var(--colorMortuum);
-    background-color: var(--colorArticleButton);
-    border-radius: 10%;
-}
-
-/*FOOTER container*/
+/*FOOTER - Last Modified**/
 .flex-footer {
     background-color: white;
     padding-top: 3rem;
@@ -151,11 +103,12 @@ body {
 
 }
 
+
 .flex-footer h2 {
 	color: white;
 }
 
-/*Last modified*/
+
 p {
 	margin: 0.25rem;
 	border: 1px solid rgba(0, 0, 0, 0.1);
@@ -165,3 +118,18 @@ p {
 	border-radius: 10px;
 }
 
+  
+/* Show 2 images in a row for medium screens */
+@media only screen and (max-width: 767px) and (min-width: 481px) {
+	.container {
+		grid-template-columns: repeat(2, 1fr); /* Two columns */
+	}
+}
+  
+
+/* Show 1 image per row for small screens */
+@media only screen and (max-width: 480px) {
+	.container {
+		grid-template-columns: repeat(1, 1fr); /* One column */
+	}
+}
