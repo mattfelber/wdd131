@@ -5,32 +5,7 @@
 }
 
 
-:root {
-
-	/*List of colors*/
-    --colorHeaderAndFooter: #E6E8E6;
-    --colorMain: #9FB8AD;
-    --colorNav: #CED0CE;
-    --colorArticle: #9FB8AD;
-    --colorArticleButton: #abcebf;
-    --colorAside: #CED0CE;
-    --colorFont: #000505;
-    --colorLinks: #23022E;
-
-	--colorBlack: #000000;
-	--colorRawUmber: #855A42;
-	--colorOxfordBlue: #1A2C47;
-	--colorSilver: #D0C2BD;
-	--colorMortuum: #472928;
-	--colorAirForceBlue: #537d8d;
-	--colorChamoise: #b07c5d;
-	--colorFlame: #e4572e;
-	--colorFlagGreen: #32af61;
-	--colorFlagYellow: #fee533;
-  }
-
-
-  h1 {
+h1 {
 	text-align: left;
 	font-family: times, serif;
 	font-size: 1.5rem;
@@ -42,11 +17,6 @@ h2 {
 	color: black;
 	text-align: left;
 	margin: 1rem;
-}
-
-nav {
-	max-width: 700px;
-	margin: 1rem auto;
 }
 
 /* small view navigation */
@@ -106,50 +76,10 @@ nav {
 	/*height: 100vh;*/
 }
 
-/* large view navigation ************************************/
- 
-@media (min-width: 37.5em) {
-	h1 {
-		font-size: 2.5rem;
-		margin-left: 0;
-		text-align: center;
-	}
-	
-	h2 {
-		font-size: 2rem;
-		text-align: center;
-	}
 
-	#menu {
-		display: none; /* hide hamburger button */
-	}
-
-	.navigation {
-		flex-direction: row;
-	}
-
-	.navigation a {
-		display: block;
-		flex: 1 1 100%;
-	}
-	
-	.stuff {
-		margin: 1rem auto;
-	}
-}
-
-
-
-
-section {
-    margin: 1rem auto;
-    max-width: 960px;
-    background-color: red;
-  }
-  
   .container {
     display: grid;
-    grid-gap: 25px; /* Spacing between images */
+    grid-gap: 50px; /* Spacing between images */
     place-items: center;
   }
   
@@ -174,8 +104,6 @@ figcaption {font-size: smaller;}
 
 .hover:hover {box-shadow: 0 0 50px #333;}
 
-
-
 body {
     font-size: 24px;
     color: var(--colorFont);
@@ -194,7 +122,6 @@ body {
 }
 
 /*TOP NAVBAR LINKS*/
-
 .flex-links {
 	background-color: var(--colorArticle);
     display: flex;
@@ -213,8 +140,6 @@ body {
     border-radius: 10%;
 }
 
-
-
 /*FOOTER container*/
 .flex-footer {
     background-color: white;
@@ -230,7 +155,7 @@ body {
 	color: white;
 }
 
-/*Last modified ---------------------------*/
+/*Last modified*/
 p {
 	margin: 0.25rem;
 	border: 1px solid rgba(0, 0, 0, 0.1);
