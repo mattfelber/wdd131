@@ -3,3 +3,9 @@
       position: relative;
     }
   }
+
+.section-top-left,
+.section-top-right {
+font-size: 1rem;    
+
+}
