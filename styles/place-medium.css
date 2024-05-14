@@ -2,12 +2,4 @@
     main {
       position: relative;
     }
-
-.section-top-left,
-.section-top-right {
-font-size: 0.5rem;    
-position: absolute; /* Position them on top of the image */
-transform: translateY(-50%); /* Offset them vertically (adjust as needed) */
-color: white;  
-}
-}
+  }
