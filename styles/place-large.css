@@ -3,8 +3,8 @@
     position: relative;
   }
 
-  .heads h2::after {
-    content: " ⛅";
+  .heads::after {
+    content: "⛅";
   }
 
 .section-top-left,
