@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+:root {
+    --color: #eee;
+    --red-1: #ff0000;
+    --red-2: #d20000;
+    --red-3: #770000;
+    --red-4: #3b0000;
+    --gray-1: #a2a8af;
+    
+
+}
+
+.flex-header {
+    font-family: "Trocchi", sans-serif;
+    font-size: 0.5rem;
+	background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+.flex-footer {
+    font-family: "Audiowide", sans-serif;
+    font-size: 0.3rem;
+    text-align: center;
+    background-color: var(--red-3);
+    color: white;
+
+}
+
+.flex-navbar {
+    padding-top: 1rem;
+    background-color: var(--red-4);    
+}
+
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    
+
+  }
+
+  .section-top-left,
+  .section-top-right {
+    position: absolute; /* Position them on top of the image */
+    top: 30%; /* Center them vertically */
+    transform: translateY(-50%); /* Offset them vertically (adjust as needed) */
+    padding: 1rem; /* Add some padding */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white; /* Text color */
+    width: 30%; /* Set a width for each section */
+    
+  }
+  
+  .section-top-left {
+    left: 0; /* Position on top left */
+    font-size: 0.5rem;
+    margin-left: 1rem;
+  }
+  
+  .section-top-right {
+    right: 0; /* Position on top right */
+    font-size: 0.5rem;
+    margin-right: 1rem;
+  }
+
+
+  @media (max-width: 500px) {
+    .section-top-left,
+    .section-top-right {
+      position: static; /* Remove absolute positioning */
+      transform: none; /* Remove vertical offset */
+      margin-top: 1rem; /* Add margin top for stacking */
+      margin: 0 auto;
+    }
+  }
