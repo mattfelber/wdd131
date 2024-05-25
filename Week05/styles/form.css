@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  select, input[type="text"], input[type="date"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+  
+  .rating { /* Container for rating radio buttons */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .rating label {
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  input[type="radio"] {
+    display: none; /* Hide radio buttons visually */
+  }
+  
+  .rating label:before {
+    content: "*";
+    font-size: 2rem;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  input[type="radio"]:checked + label:before {
+    color: gold;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  textarea {
+    min-height: 100px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45A049; /* Green Hover */
+  }
+  
