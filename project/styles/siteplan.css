@@ -1,20 +1,26 @@
 body {
     font-family: monospace;
-    background-color: #000;
-    color: #0F0;
+    background-color: #000; /* Black background */
+    color: #FFF; /* White foreground text */
     margin: 0;
     padding: 20px;
   }
   
   .terminal {
-    border: 2px solid #333;
+    border: 2px solid black; /* black border */
     padding: 10px;
     border-radius: 4px;
+    background-color: inherit; /* Inherit black background from body */
+    color: inherit; /* Inherit white text color from body */
   }
   
   .header {
     text-align: center;
     margin-bottom: 10px;
+  }
+  
+  .intro {
+    margin-bottom: 5px;
   }
   
   .prompt {
@@ -24,26 +30,26 @@ body {
   }
   
   .user,
-  .cursor {
-    color: #333;
+  .input {
+    color: inherit; /* Inherit white text color */
     font-weight: bold;
-  }
-  
-  .cursor {
-    animation: blink 0.5s infinite;
-  }
-  
-  @keyframes blink {
-    from, to { opacity: 0.5; }
-    50% { opacity: 1; }
+    background-color: transparent;
+    border: none;
+    outline: none;
   }
   
   .input {
-    outline: none;
-    background-color: transparent;
+    flex-grow: 1; /* Allow input field to grow horizontally */
   }
   
-  .output {
-    /* Style for output messages (optional) */
+  .output p { /* Style output text paragraphs */
+    color: inherit; /* Inherit white text color */
+  }
+  
+  /* New color styles */
+  .user::before { /* Target text before username (--) */
+    content: "--";
+    color: #393; /* Lime green for "--" symbol */
+    font-weight: bold;
   }
   
