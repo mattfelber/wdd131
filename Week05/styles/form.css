@@ -33,7 +33,7 @@ select, input[type="text"], input[type="date"], textarea {
 }
 
 input[type="radio"] {
-  /*display: none;  */
+  /*display: none; */
 }
 
 .rating label:before {
