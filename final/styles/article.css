@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 2rem;
+    background-color: black;
+    color: white;
+}
+
+body {
+    margin: 0; 
+    padding: 0;
+  }
+
+.no-margin {
+    width: 100%;
+    margin: 0;
+  }
+
+h1 {
+text-align: center;
+font-size: 2rem;
+margin-bottom: 1rem;
+}
+h2 {
+font-size: 1.2rem;
+margin-top: 2rem;
+}
+ul {
+list-style: none;
+padding: 0;
+}
+li {
+margin-bottom: 0.5rem;
+}
+li:before {
+content: "•";
+margin-right: 0.5rem;
+color: #ccc;
+}
