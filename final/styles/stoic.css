@@ -190,21 +190,22 @@ h1 {
     margin-bottom: 1rem;
 }
 
+/*SIGN UP FORM*/
 .responsive-iframe {
-	
-    max-width: 100%; /* Allow iframe to fill available width */
-    height: auto;  /* Adjust height proportionally */
-    padding-bottom: 56.25%; /* Maintain aspect ratio (height:width = 3:4) */
-    position: relative;
+max-width: 100%; /* Allow iframe to fill available width */
+height: auto; /* Adjust height proportionally */
+padding-bottom: 56.25%; /* Maintain aspect ratio (height:width = 3:4) */
+position: relative;
+min-height: 600px; /* Adjust as needed */
 }
-
-.responsive-iframe iframe {
-	margin-top: 2rem;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+	
+	.responsive-iframe iframe {
+margin-top: 2rem;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 95%;
 }
 
 /* Show 2 images in a row for medium screens */
