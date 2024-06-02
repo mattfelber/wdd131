@@ -1,4 +1,6 @@
 
+//QUOTES:
+
 const quotes = []; // Empty array to store quotes
 const quoteContainer = document.getElementById('quote-container');
 const getRandomQuoteButton = document.getElementById('get-random-quote');
@@ -27,3 +29,4 @@ fetchQuotes().then(() => displayRandomQuote());
 
 // Add event listener for button click
 getRandomQuoteButton.addEventListener('click', displayRandomQuote);
+

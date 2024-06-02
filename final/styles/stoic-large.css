@@ -35,4 +35,15 @@
       .stuff {
         margin: 1rem auto;
       }
+
+      .resources {
+        margin: 1rem auto;
+        text-align: center;
+        
+      }
+
+      .resources ul {
+        list-style-type: none;
+      }
+      
     }
