@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center; 
+        }
+
+        .thank-you-message {
+            display: inline-block; /*center vertically */
+            vertical-align: middle; /* Vertically center within viewport */
+            position: absolute; /* Absolute positioning for centered placement */
+            top: 50%; /* Position halfway down the viewport */
+            left: 50%; /* Position halfway across the viewport */
+            transform: translate(-50%, -50%); /* Offset to counteract absolute positioning */
+            padding: 2rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+    <div class="thank-you-message">
+        <h1>Thank You!</h1>
+        <p>Your product review has been submitted.</p>
+    </div>
+</body>
+</html>

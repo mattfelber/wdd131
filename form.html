@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Review Form</title>
+    <meta name="description" content="Matt Felber - WDD 131 - Dynamic Web Fundamentals. This is my product review page and it contains the work I did ">
+    <meta name="author" content="Matt Felber">
+    <meta property="title" content="Product Review | 131 Dynamic Web Fundamentals | Matt Felber">
+
     <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/form.js" defer></script>
 </head>
 <body>
     <header>
         </header>
     <main>
         <h1>Product Review Form</h1>
-        <form action="form.html" method="get" id="product-review-form">
+        <form action="review.html" target="_blank" method="get" id="product-review-form">
             <div class="form-group">
                 <label for="product">Product Name:</label>
                 <select name="product" id="product" required>
@@ -19,7 +24,7 @@
                 </select>
             </div>
             <div class="form-group">
-                <h2>Overall Rating</h2>
+                <h2>Rating</h2>
                 <div class="star-rating">
                     <input type="radio" name="stars" id="star-a" value="5" required/>
                     <label for="star-a"></label>
@@ -64,11 +69,11 @@
                 <label for="user-name">User Name:</label>
                 <input type="text" name="user-name" id="user-name">
             </div>
-            <button type="submit" value="Submit Review">Submit Review</button>
+            <button type="submit" value="Submit">Submit Review</button>
         </form>
     </main>
     <footer>
         </footer>
-    <script src="scripts/form.js"></script>
+    
 </body>
 </html>
