@@ -29,7 +29,9 @@ function displayWhois() {
 
 // project image/link 
 function displayProjects() {
-  const message = 'Project list coming soon!';
+  const message = "https://mattfelber.github.io/wdd131/";
+
+  // Set the inner HTML of the element to display the links
   displayOutput(message);
 }
 
