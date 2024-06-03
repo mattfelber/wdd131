@@ -21,7 +21,7 @@ function showHelp() {
   }
 
 function displayWhois() {
-    const whoisIntro = `Hi! I'm a web developer with experience in various programming languages 
+    const whoisIntro = `Hi! I'm a developer with experience in various programming languages 
     like Python, C#, Java, and JavaScript. I also have experience in technical support 
     and I'm passionate about learning new technologies and creating projects.`;
     displayOutput(whoisIntro);
