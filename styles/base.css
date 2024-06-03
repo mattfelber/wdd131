@@ -6,22 +6,28 @@
 :root {
 
 	/*List of colors*/
-    --colorHeaderAndFooter: #E6E8E6;
+    --colorTopBanner: #1a1b41; /*Top banner bg*/
+    --colorHeader: #ebe9e9; /*Top banner font*/
+    --colorArticle: #1a1b41; /*Navbar buttons bg*/
+    --colorArticleButton: #292b66; /*Navbar buttons*/
+    --colorMortuum: #ebe9e9; /*Navbar buttons font*/
+    --colorButtonsHover: #ebe9e9; /*Navbar buttons Hover Bg*/
+    --colorChamoise: #ff9f1c; /*Footer bg*/
+
     --colorMain: #9FB8AD;
     --colorNav: #CED0CE;
-    --colorArticle: #9FB8AD;
-    --colorArticleButton: #abcebf;
+
     --colorAside: #CED0CE;
     --colorFont: #000505;
     --colorLinks: #23022E;
 
-	--colorBlack: #000000;
+	--colorBlack: #011627;
 	--colorRawUmber: #855A42;
-	--colorOxfordBlue: #1A2C47;
+
 	--colorSilver: #D0C2BD;
-	--colorMortuum: #472928;
+	
 	--colorAirForceBlue: #537d8d;
-	--colorChamoise: #b07c5d;
+	
 	--colorFlame: #e4572e;
 	--colorFlagGreen: #32af61;
 	--colorFlagYellow: #fee533;
@@ -39,10 +45,10 @@ body {
 }
 
 .flex-header {
-    background-color: var(--colorOxfordBlue);
-	color: white;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    background-color: var(--colorTopBanner);
+	color: var(--colorHeader);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .flex-main {
@@ -69,7 +75,7 @@ body {
 
 
 .flex-links a:hover {
-    background-color: #CED0CE;
+    background-color: var(--colorButtonsHover);
     color: var(--colorLinks);
 }
 
@@ -91,13 +97,14 @@ body {
 
 /*/////////////////////////////**/
 
-/*SKILLS container*/
+/*PROJECTS container*/
 .flex-nav {
 	color: var(--colorChamoise);
     padding-top: 3rem;
     flex: 1 1 5rem;
 	margin: 0;
 	justify-content: flex-start;
+    
 
 }
 
@@ -134,7 +141,7 @@ ul {
 
 }
 
-/*BOUT ME container alignment of pictures and text*/
+/*ABOUT ME container alignment of pictures and text*/
 .content-container {
 	margin-left: auto;
 	margin-right: auto;
@@ -145,7 +152,7 @@ ul {
 }
 
 
-/*RESOUCES container and links*/
+/*RESOURCES container and links*/
 
 .flex-aside {
 	
@@ -174,8 +181,8 @@ ul {
 /*FOOTER container*/
 .flex-footer {
     background-color: var(--colorChamoise);
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
