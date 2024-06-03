@@ -156,10 +156,10 @@ p {
 	padding: 0.5rem 1rem;
 	border-radius: 5px;
 	cursor: pointer;
-	margin-top: 1rem;
-	margin-left: 1rem;
+	margin-top: 4rem;
 	position: relative;
-  }
+	float: right;
+}
 
 #get-random-quote:active {
 background-color: #000; 
@@ -180,7 +180,7 @@ color: #fff;
     margin-bottom: 1rem;
 }
 
-/* Optional (depending on your form structure): */
+
 body {
     font-family: sans-serif;
 }
@@ -199,7 +199,7 @@ position: relative;
 min-height: 600px; /* Adjust as needed */
 }
 	
-	.responsive-iframe iframe {
+.responsive-iframe iframe {
 margin-top: 2rem;
 position: absolute;
 top: 0;
