@@ -13,6 +13,7 @@
     --colorMortuum: #ebe9e9; /*Navbar buttons font*/
     --colorButtonsHover: #ebe9e9; /*Navbar buttons Hover Bg*/
     --colorChamoise: #ff9f1c; /*Footer bg*/
+    --colorAboutMeTopBg: #ebe9e9;
 
     --colorMain: #9FB8AD;
     --colorNav: #CED0CE;
@@ -48,7 +49,7 @@ body {
 .flex-main {
     display: flex;
     flex: 1;
-    align-items: center;
+    
 }
 
 /*TOP NAVIGATION BAR LINKS*/
@@ -68,12 +69,10 @@ body {
     border-radius: 10%;
 }
 
-
 .flex-links a:hover {
     background-color: var(--colorButtonsHover);
     color: var(--colorLinks);
 }
-
 
 /*Inner page links*/
 .links {
@@ -87,29 +86,6 @@ body {
 	font-weight: 900;
 }
 
-
-/*PROJECTS container*/
-.flex-nav {
-	color: var(--colorChamoise);
-    padding-top: 3rem;
-    flex: 1 1 5rem;
-	margin: 0;
-	justify-content: flex-start;  
-
-}
-
-.flex-nav h1 {
-    text-align: center;
-}
-
-.flex-nav li {
-    text-align: center;
-    text-decoration: underline;
-
-}
-
-
-
 ul {
     list-style-type: none;
     text-align: center;
@@ -122,12 +98,8 @@ ul {
     color: var(--colorArticle);
     padding-top: 3rem;
     flex: 3 3;
-	text-align: justify;
+	text-align: center;
 	justify-content: center;
-    
-
-	
-	
 }
 
 .flex-article img {
@@ -139,25 +111,45 @@ ul {
 
 }
 
-/*ABOUT ME container alignment of pictures and text*/
+/*ABOUT ME containers for pictures and text*/
 .content-container {
 	margin-left: auto;
 	margin-right: auto;
     display: flex;
     align-items: center;
-	background-color: white;
-
 }
 
+/*PROJECTS container*/
+.flex-nav {
+	color: var(--colorChamoise);
+    padding-top: 3rem;
+    flex: 1 1 5rem;
+	justify-content: flex-start;  
+    
+}
 
-/*RESOURCES container and links*/
+.flex-nav nav {
+    display: flex;
+	flex-direction: column;
+}
 
+.flex-nav a {
+    text-decoration: underline;
+	color: var(--colorChamoise);
+}
+
+.flex-nav nav a:hover {
+    color: var(--colorLinks);
+	font-weight: 900;
+}
+
+/*RESOURCES container*/
 .flex-aside {
 	
 	color: var(--colorChamoise);
     padding-top: 3rem;
     flex: 1 1 5rem;
-
+    
 }
 
 .flex-aside nav {
@@ -175,6 +167,7 @@ ul {
     color: var(--colorLinks);
 	font-weight: 900;
 }
+
 
 /*FOOTER container*/
 .flex-footer {
@@ -201,10 +194,48 @@ p {
 }
 
 
-/*////////////////////////////////////////////////////*/
 
 @media all and (max-width: 540px) {
     .flex-main {
         flex-direction: column;
     }
+
+    /*HEADER BANNER*/
+    .flex-header {
+        background-color: var(--colorTopBanner);
+        color: var(--colorHeader);
+        font-size: small;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    /*PROJECTS container*/
+    .flex-nav {
+        color: var(--colorChamoise);
+        padding-top: 0.5rem;
+        flex: 1 1 5rem;
+        justify-content: flex-start;  
+        
+    }
+
+    /*ABOUT ME container*/
+    .flex-article {
+        margin-left: auto;
+        margin-right: auto;
+        color: var(--colorArticle);
+        padding-top: 0.5rem;
+        flex: 3 3;
+        text-align: justify;
+        justify-content: center;
+    }
+
+    /*RESOURCES container*/
+    .flex-aside {
+	
+        color: var(--colorChamoise);
+        padding-top: 0.5rem;
+        flex: 1 1 5rem;
+        
+    }
+
 }
