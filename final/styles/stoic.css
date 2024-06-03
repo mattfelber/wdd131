@@ -81,6 +81,34 @@ h2 {
 	margin: 1rem auto;
 }
 
+/*BUTTON: GET RANDOM QUOTE*/
+.quotestuff {
+	margin: 0.5rem;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: white;
+	max-width: 980px;
+	margin: 1rem auto;
+	display: grid;
+	place-items: center; /* Already centers horizontally and vertically */
+  }
+  
+#get-random-quote {
+background-color: #333;
+color: white;
+padding: 0.5rem 1rem;
+border-radius: 5px;
+cursor: pointer;
+max-width: 200px; /* Limit button width */
+}
+  
+  
+
+#get-random-quote:active {
+background-color: #000; 
+color: #fff; 
+}
+
+
 .resources {
 	margin: 0.5rem;
 	border: 1px solid rgba(0, 0, 0, 0.1);
@@ -149,22 +177,7 @@ p {
 	border-radius: 10px;
 }
 
-/*BUTTON: GET RANDOM QUOTE*/
-#get-random-quote {
-	background-color: #333;
-	color: white;
-	padding: 0.5rem 1rem;
-	border-radius: 5px;
-	cursor: pointer;
-	margin-top: 4rem;
-	position: relative;
-	float: right;
-}
 
-#get-random-quote:active {
-background-color: #000; 
-color: #fff; 
-}
 
 /*Sign Up Form*/
 .contact-form-container {
