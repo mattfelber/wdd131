@@ -2,15 +2,17 @@
 
 What's in here?
 
-Responsive Designs: Dive into the world of fluid layouts, media queries, and making your creations dance across any screen size! ️
-✨ JavaScript Magic: Unleash the power of JavaScript to add interactivity and dynamism to your web pages. 🪄
-Software Development Journey: Witness the culmination of my efforts in this Software Development class! ️
-This project showcases my understanding of:
+Responsive Designs: Diving into the world of fluid layouts, media queries, and creations that respond across any screen size. ️
+✨ JavaScript Magic: Unleashing the power of JavaScript to add interactivity and dynamism to web pages. 🪄
 
-HTML Structure and Semantics (the building blocks )
-Cascading Style Sheets (CSS) for eye-catching styling
-JavaScript Fundamentals (the brain behind the magic)
-**Let's take a peek! **
+This project showcases part of my Software Development Journey.
 
-Explore the journey: Dive into the index.html, final.html and folders.
+Includes:
+
+HTML Structure and Semantics
+Cascading Style Sheets (CSS)
+JavaScript Fundamentals 
+
+** Explore the journey **
+Dive into the index.html, final.html and folders.
 
