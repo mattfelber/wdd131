@@ -1,0 +1,33 @@
+@media all and (max-width: 540px) {
+    /*RANDOM QUOTE*/
+    .quotestuff 
+    {
+        margin: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        background-color: white;
+        font-size: x-large;
+        max-width: 980px;
+        margin: 1rem auto;
+        display: grid;
+        place-items: center; /* Already centers horizontally and vertically */
+    }
+    
+    /*Button*/
+    #get-random-quote 
+    {
+    background-color: #333;
+    color: white;
+    font-size: large;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 200px; /* Limit button width */
+    }
+    
+    #get-random-quote:active 
+    {
+    background-color: #000; 
+    color: #dbcccce5; 
+    }
+
+}
