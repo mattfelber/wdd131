@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Form</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        </header>
+    <main>
+        <h1>Product Review Form</h1>
+        <form action="form.html" method="get" id="product-review-form">
+            <div class="form-group">
+                <label for="product">Product Name:</label>
+                <select name="product" id="product" required>
+                    <option value="" disabled selected>Select a Product...</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <h2>Overall Rating</h2>
+                <div class="star-rating">
+                    <input type="radio" name="stars" id="star-a" value="5" required/>
+                    <label for="star-a"></label>
+
+                    <input type="radio" name="stars" id="star-b" value="4" required/>
+                    <label for="star-b"></label>
+
+                    <input type="radio" name="stars" id="star-c" value="3" required/>
+                    <label for="star-c"></label>
+
+                    <input type="radio" name="stars" id="star-d" value="2" required/>
+                    <label for="star-d"></label>
+
+                    <input type="radio" name="stars" id="star-e" value="1" required/>
+                    <label for="star-e"></label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="install-date">Date of Installation:</label>
+                <input type="date" id="install-date" name="install-date" required>
+            </div>
+            <div class="form-group">
+                <h2>Useful Features</h2>
+                <label for="feature1">
+                    <input type="checkbox" name="features[]" id="feature1" value="Feature 1">
+                    Feature 1
+                </label>
+                <label for="feature2">
+                    <input type="checkbox" name="features[]" id="feature2" value="Feature 2">
+                    Feature 2
+                </label>
+                <label for="feature3">
+                    <input type="checkbox" name="features[]" id="feature3" value="Feature 3">
+                    Feature 3
+                </label>
+                </div>
+            <div class="form-group">
+                <label for="review">Written Review:</label>
+                <textarea name="review" id="review" rows="5"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="user-name">User Name:</label>
+                <input type="text" name="user-name" id="user-name">
+            </div>
+            <button type="submit" value="Submit Review">Submit Review</button>
+        </form>
+    </main>
+    <footer>
+        </footer>
+    <script src="scripts/form.js"></script>
+</body>
+</html>
