@@ -6,7 +6,7 @@ function calculateWindChill(temperature, windSpeed) {
   
   // Assuming static values for temperature and wind speed (replace these with actual data fetching later)
   const temperature = 9;
-  const windSpeed = 6;
+  const windSpeed = 21;
   
   const windchillValue = calculateWindChill(temperature, windSpeed);
 
