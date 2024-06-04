@@ -1,25 +1,25 @@
 const temples = [
 	{
-		templeName: "Bangkok Thailand Temple",
-		location: "Thailand",
-		dedicated: "1, April, 2010",
-		area: 12345,
-		imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/1280x800/aba-nigeria-temple-lds-273999-wallpaper.jpg",
+		templeName: "Arequipa Peru",
+		location: "Peru",
+		dedicated: "1, April, 2006",
+		area: 756,
+		imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/arequipa-peru/1280x800/1-55f6c59ce8f9c093a9c689067f8674335de544e2.jpeg",
 	  },
   
 	{
-	  templeName: "Bangkok Thailand Temple",
-	  location: "Thailand",
-	  dedicated: "1, 3, 2010",
-	  area: 12345,
-	  imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/1280x800/aba-nigeria-temple-lds-273999-wallpaper.jpg",
+	  templeName: "Bountiful Utah",
+	  location: "USA",
+	  dedicated: "1, 9, 2003",
+	  area: 1200,
+	  imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bountiful-utah/1280x800/bountiful-temple-766347-wallpaper.jpg",
 	},
 	{
-		templeName: "Bangkok Thailand Temple",
-		location: "Thailand",
-		dedicated: "1, 3, 2010",
-		area: 12345,
-		imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/1280x800/aba-nigeria-temple-lds-273999-wallpaper.jpg",
+		templeName: "Boise Idaho Temple",
+		location: "USA",
+		dedicated: "6, 4,  2012",
+		area: 800,
+		imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/boise-idaho/1280x800/boise-idaho-temple-exterior-2012-1029114-wallpaper.jpg",
 	  },
   ];
   
