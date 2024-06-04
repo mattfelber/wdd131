@@ -2,8 +2,7 @@
 @media only screen and (min-width: 768px) {
   .container {
     grid-template-columns: repeat(3, 1fr); 
-    margin: 0.2rem 0.4rem; /* Adjust margins as needed */
-
+    margin: 0.8rem 0.8rem; 
     }
   }
 
@@ -12,13 +11,13 @@
     flex-direction: column;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
+    margin: 1rem;
   }
 
   .container figure img {
     width: 100%; /* Still allow full width within the card */
-    
   }
-}
+
 
 /* Large view navigation */
 @media (min-width: 37.5em) {
