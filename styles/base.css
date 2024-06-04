@@ -195,7 +195,7 @@ p {
 
 
 
-@media all and (max-width: 540px) {
+@media all and (max-width: 914px) {
     .flex-main {
         flex-direction: column;
     }

@@ -1,83 +1,120 @@
+/* Import fonts (consider adding generic font fallbacks) */
 @import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
-:root {
-    --color: #eee;
-    --red-1: #ff0000;
-    --red-2: #d20000;
-    --red-3: #770000;
-    --red-4: #3b0000;
-    --gray-1: #a2a8af;
-    
 
+:root {
+  --color: #eee;
+  --red-1: #ff0000;
+  --red-2: #d20000;
+  --red-3: #770000;
+  --red-4: #3b0000;
+  --gray-1: #a2a8af;
 }
 
 .flex-header {
-    margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 24px;
-	background-color: black;
-    color: white;
-    text-align: center;
-    padding-top: 0.1rem;
-    padding-bottom: 0.1rem;
-    
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
 }
 
 .flex-footer {
-    font-family: "Audiowide", sans-serif;
-    font-size: 24px;
-    text-align: center;
-    background-color: var(--red-3);
-    color: white;
+  font-family: "Audiowide", sans-serif; /* Add sans-serif fallback */
+  font-size: 24px;
+  text-align: center;
+  background-color: var(--red-3);
+  color: white;
 }
-/*Wisdom is granted to those who seek it*/
-.hero img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
 
+/* Hero Image */
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Sections on Top of Hero Image */
 .section-top-left,
 .section-top-right {
-font-size: 0.7rem;    
-position: absolute; /* Position them on top of the image */
-transform: translateY(-50%); /* Offset them vertically (adjust as needed) */
-color: white;  
+  font-size: 0.7rem;
+  color: white;
 }
 
 .section-top-left {
-width: 20%;
-top: 25%; /* Center them vertically */
-background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent bg */
-left: 0;
-margin-left: 1rem;
+  width: 20%;
+  top: 25%; /* Center them vertically */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent bg */
+  left: 0;
+  margin-left: 1rem;
+  position: absolute; /* Position them on top of the image */
+  transform: translateY(-50%); /* Offset them vertically (adjust as needed) */
 }
 
 .section-top-right {
-width: 15%;
-top: 35%; /* Center them vertically */
-background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent bg */
-right: 0;
-margin-right: 1rem;
+  width: 15%;
+  top: 35%; /* Center them vertically */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent bg */
+  right: 0;
+  margin-right: 1rem;
+  position: absolute; /* Position them on top of the image */
+  transform: translateY(-50%); /* Offset them vertically (adjust as needed) */
 }
 
+/* Table Styling */
 .table {
-    border: 0;
-    border-collapse: collapse;
+  border: 0;
+  border-collapse: collapse;
 }
 
+/* Weather Icon Styles */
+.weather-icon-svg,
+.weather-icon-emoji  {
+  width: 2rem; /* Adjust size as needed */
+  height: 2rem; /* Adjust size as needed */
+  margin-right: 0.5rem; /* Adjust margin as needed */
+}
+
+/* Smaller Screens (SVG Icon) - Adjust breakpoint as needed */
+@media (max-width: 767px) {
+  .weather-icon-svg {
+    display: block;
+  }
+  
+  .weather-icon-emoji {
+    display: none;
+  }
+}
+
+/* Medium and Larger Screens (Emoji) - Adjust breakpoint as needed */
+@media (min-width: 768px) {
+  .weather-icon-svg {
+    display: none;
+  }
+  
+  .weather-icon-emoji {
+    display: block;
+    font-size: 2rem; /* Adjust size as needed */
+  }
+}
+
+/* Responsive Section Positioning for Smaller Screens */
 @media (max-width: 875px) {
-.section-top-left,
-.section-top-right {
+  .section-top-left,
+  .section-top-right {
     position: static; /* Remove absolute positioning */
     transform: none; /* Remove vertical offset */
     margin: 0 auto;
     width: 100%;
-}
-
-.heads::after {
-    content: "⛅";
   }
-
-
 }
+
+/* Specificity for Weather Emoji in Smaller Screens */
+@media (max-width: 875px) {
+    .section-top-right .heads::after { /* Target the "heads" element within right section */
+      content: "";  
+    }
+  }

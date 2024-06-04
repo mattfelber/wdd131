@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="styles/place-medium.css">
     <link rel="stylesheet" href="styles/place-large.css">
 
-    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/place/getdates.js" defer></script>
 
 </head>
 
@@ -73,31 +73,19 @@
 
         <section class="section-top-right">
             <h2 class="heads">Weather</h2>
-            <table class="table">            
-                <tr>
-                <td>Temperature:</td>
-                <td>19C</td>
-                </tr>
-                <tr>
-                <td>Conditions</td>
-                <td>Clear Sky</td>
-                </tr>
-                <tr>
-                <td>Wind</td>
-                <td>6km/h</td>
-                </tr>
-                <tr>
-                <td>Windchill</td>
-                <td>suave</td>
-                </tr>
-            </table>            
-        </section>
-            
+            <table class="table">
+              <tr>
+                <td>Windchill:</td>
+                <td id="windchill">--</td>
+              </tr>
+            </table>
+            <img src="images/weather-icon.svg" alt="Weather Icon" class="weather-icon-svg">
+            <span class="weather-icon-emoji"></span> </section>
     </main>
     <footer class="flex-footer">          
         <p id="full"></p>
     </footer>
-    <script src="scripts/getdates.js"></script>
+    
 
 
 </body>
