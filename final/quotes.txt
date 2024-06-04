@@ -18,62 +18,46 @@
 "It's not what happens to you that matters, but how you react to it." - Epictetus
 "If it is not right, do not do it; if it is not true, do not say it." - Marcus Aurelius
 "You have death for a neighbor; constantly keep that in mind." - Seneca
-"The whole future lies in uncertainty: live immediately, and tell yourself constantly that not life itself, but good life, is to be chiefly valued." - Seneca
 "Virtue is the only good, and vice the only evil." - Zeno of Citium
 "It is not the man who has too little, but the man who craves more, that is poor." - Lucius Annaeus Seneca
 "Difficulties are meant to be overcome; what is conquered is therefore best." - Epictetus
-"We are more often frightened than hurt; and we suffer more in imagination than in reality." - Seneca
-"The object of life is not to live long, but to live well." - Seneca
 "External things are not the cause of happiness or unhappiness, but our internal interpretation of them." - Epictetus
 "It is better to be deprived of some things you like than to be possessed by some things you hate." - Epictetus
 "True happiness is to enjoy the present, without anxious dependence upon the future, not to amuse ourselves with either hopes or fears but to rest satisfied with what we have, which is sufficient." - Seneca
 "Freedom is the right to live as we wish, not to do as we please." - Epictetus
-The things that trouble us are not the events themselves, but the views we take of them. - Epictetus
 The opportunity to do good is what makes life so interesting. - Seneca
 It is not because things are difficult that we do not dare; it is because we do not dare that things are difficult. - Seneca
 Where you are born is not important; what matters is the type of person you become. - Epictetus
 You cannot control the external circumstances of your life, but you can control the way you choose to interpret and respond to them. - Epictetus
-It is not the length of life, but the depth of life. - Seneca
 The only person you are destined to become is the person you decide to be. - Ralph Waldo Emerson
 Difficulties are meant to rouse, not discourage. The human spirit is to grow strong by conflict. - Seneca
 The whole future lies in uncertainty: live immediately, and tell yourself constantly that not life itself, but good life, is to be chiefly valued. - Seneca
-The object of life is not to live long, but to live well. - Seneca
 How much more grievous are the things we create for ourselves than those that happen to us! - Seneca
 We are more often frightened than hurt; and we suffer more in imagination than in reality. - Seneca
 Philosophy is not a study of words, it is a way of life. - Epictetus
 Wealth is the slave of the wise man. The wise man is the slave of no one. - Epictetus
-It is better to be deprived of some things you like than to be possessed by some things you hate. - Epictetus
-Security is mostly a superstition. Life is either a daring adventure or nothing. - Helen Keller
 True happiness is to enjoy the present, without anxious dependence upon the future, not to amuse ourselves with either hopes or fears but to rest satisfied with what we have, which is sufficient. - Seneca
 The man who is fortunate is not the one who has never had misfortune. He is the one who has risen above it. - Henry Ford
 Luck is what happens when preparation meets opportunity. - Seneca
 It is better to be a king of your own actions than a slave to the opinions of others. - Epictetus
-The greatest obstacle to living is expectation, especially the expectation of happiness. - Seneca
 We are not made gentle by nature; but we are made gentle by study. - Seneca
 It is not that we have a short time to live, but that we waste a lot of it. Life is long enough, and a generous amount has been given to us for the highest purposes if it were all well invested. - Seneca
-It is a poor argument to say that I cannot act honestly because other men will not do so. Should I not then rather act honestly because other men will not? - Marcus Aurelius
 Freedom is the right to live as we wish, not to do as we please. - Epictetus
 You are not obligated to complete the work, but neither are you free to abandon it. - Marcus Aurelius
-Difficulty is a teacher sent from God, for He knows that prosperity corrupts even the best men’s characters, while hardship reveals their true worth. - Epictetus
 The key is to keep company only with people who uplift you, whose presence calls forth your best self. - Epictetus
 To be happy, withdraw yourself from the crowd. - Seneca
-It is better to suffer a short pain by refusing what is harmful than a long one by giving in. - Seneca
 The things which are good for the body are not good for the soul. - Epictetus
 It is not he who has little who is poor, but he who desires much. - Lucius Annaeus Seneca
 Man is not worried by events, but by his view of events. - Epictetus
 It is better to light a single candle than to curse the darkness. - Confucius 
 If you are distressed by anything external, the pain is not caused by the thing itself, but by your judgment of it. And it is in your power to wipe out this judgment whenever you want. - Marcus Aurelius
-The condition of good fortune is not the absence of troubles, but the triumph over them. - Lucius Annaeus Seneca
 You have two ears and one mouth. Listen twice as much as you speak. - Epictetus
-It is not the man who has too little, but the man who craves more, that is poor. - Lucius Annaeus Seneca
 The mind is everything. What you think you become. - Marcus Aurelius
 Teach them not to be too fond of life, for life is no good. - Epictetus
 It is better to be cheated by some people than to suspect everyone. - Seneca
 The greatest remedy for anger is delay. - Seneca
 Opportunity knocks only once, but misfortune repeats itself on every doorstep. - Publilius Syrus
-We are shaped by our thoughts; we become what we think. When the mind is pure, joy follows like a shadow that never leaves us. - Buddha (Stoic influence)
 You are not what happens to you. You are your response. - Epictetus
-He who has conquered himself is the mightiest warrior. - Lucius Annaeus Seneca
 Difficulty should be seen not as a problem but as an opportunity to develop our endurance. - Epictetus
 To be happy, withdraw yourself from the crowd. - Seneca
 It is better to suffer a short pain by refusing what is harmful than a long one by giving in. - Seneca
@@ -81,3 +65,82 @@ The things which are good for the body are not good for the soul. - Epictetus
 It is not he who has little who is poor, but he who desires much. - Lucius Annaeus Seneca
 Man is not worried by events, but by his view of events. - Epictetus
 If you are distressed by anything external, the pain is not caused by the thing itself, but by your judgment of it. And it is in your power to wipe out this judgment whenever you want. - Marcus Aurelius
+The world is not concerned with your explanations, only your actions. - Epictetus
+Difficulties are meant to rouse, not discourage. The human spirit is to grow strong by conflict. - Seneca
+The greatest remedy for anger is delay. - Seneca
+Opportunity knocks only once, but misfortune repeats itself on every doorstep. - Publilius Syrus
+Teach them not to be too fond of life, for life is no good. - Epictetus
+We are not made gentle by nature; but we are made gentle by study. - Seneca
+It is a poor argument to say that I cannot act honestly because other men will not do so. Should I not then rather act honestly because other men will not? - Marcus Aurelius
+The things which are good for the body are not good for the soul. - Epictetus
+You have two ears and one mouth. Listen twice as much as you speak. - Epictetus
+The greatest obstacle to living is expectation, especially the expectation of happiness. - Seneca
+Progress, not perfection, is the mark of success. - Marcus Aurelius
+The mind unburdened by past or future troubles is the happiest. - Seneca
+True character is revealed in the choices you make under pressure. - Epictetus
+The whole future lies in uncertainty: live immediately and seize the day. - Seneca
+Wisdom is the supreme good of life. - Zeno of Citium
+The key is not to criticize, but to educate. - Marcus Aurelius
+The best revenge is not to be like your enemy. - Marcus Aurelius
+You are not what happens to you. You are your response. - Epictetus
+Hold onto what depends on you; let go of what doesn't. But remember, what depends on you is your attitude. - Epictetus
+It is better to do nothing than to do something that is not to the purpose. - Epictetus
+The opportunity to do good is what makes life so interesting. - Seneca
+Where you are born is not important; what matters is the type of person you become. - Epictetus
+You cannot control the external circumstances of your life, but you can control the way you choose to interpret and respond to them. - Epictetus
+It is not the length of life, but the depth of life. - Seneca
+Philosophy is not a study of words, it is a way of life. - Epictetus
+The man who is fortunate is not the one who has never had misfortune. He is the one who has risen above it. - Henry Ford
+Luck is what happens when preparation meets opportunity. - Seneca
+It is better to be a king of your own actions than a slave to the opinions of others. - Epictetus
+We are not made gentle by nature; but we are made gentle by study. - Seneca
+How much more grievous are the things we create for ourselves than those that happen to us! - Seneca
+To be happy, withdraw yourself from the crowd. - Seneca
+It is better to suffer a short pain by refusing what is harmful than a long one by giving in. - Seneca
+If you are distressed by anything external, the pain is not caused by the thing itself, but by your judgment of it. And it is in your power to wipe out this judgment whenever you want. - Marcus Aurelius
+You have two ears and one mouth. Listen twice as much as you speak. - Epictetus
+Difficulty is a teacher sent from God, for He knows that prosperity corrupts even the best men’s characters, while hardship reveals their true worth. - Epictetus
+It is better to light a single candle than to curse the darkness. - Confucius
+It is not he who has little who is poor, but he who desires much. - Lucius Annaeus Seneca
+The greatest remedy for anger is delay. - Seneca
+Opportunity knocks only once, but misfortune repeats itself on every doorstep. - Publilius Syrus
+Teach them not to be too fond of life, for life is no good. - Epictetus
+Progress, not perfection, is the mark of success. - Marcus Aurelius
+The mind unburdened by past or future troubles is the happiest. - Seneca
+Virtue is the only good, and vice the only evil. - Zeno of Citium
+Difficulties are meant to be overcome; what is conquered is therefore best. - Epictetus
+External things are not the cause of happiness or unhappiness, but our internal interpretation of them. - Epictetus
+Freedom is the right to live as we wish, not to do as we please. - Epictetus
+The man who is fortunate is not the one who has never had misfortune. He is the one who has risen above it. - Henry Ford
+It is better to be a king of your own actions than a slave to the opinions of others. - Epictetus
+We are not made gentle by nature; but we are made gentle by study. - Seneca
+It is a poor argument to say that I cannot act honestly because other men will not do so. Should I not then rather act honestly because other men will not? - Marcus Aurelius
+The condition of good fortune is not the absence of troubles, but the triumph over them. - Lucius Annaeus Seneca
+We are shaped by our thoughts; we become what we think. When the mind is pure, joy follows like a shadow that never leaves us. - Buddha
+He who has conquered himself is the mightiest warrior. - Lucius Annaeus Seneca
+It is better to suffer a short pain by refusing what is harmful than a long one by giving in. - Seneca
+Our life is like a winter's day: short and dreary, and even the sunshine is never sure. - Seneca
+The things that are most essential for happiness are a quiet mind and a grateful heart. - Seneca
+You are not entitled to results, but only to honest effort. - Epictetus
+It is better to be unhappy with virtue than happy with vice. - Seneca
+The object of life is not to live long, but to live well. - Seneca
+We suffer more often in imagination than in reality. - Seneca
+The best preparation for tomorrow is doing your best today. - Marcus Aurelius
+True happiness is to enjoy the present, without anxious dependence upon the future, not to amuse ourselves with either hopes or fears but to rest satisfied with what we have, which is sufficient. - Seneca
+The key is to focus on what is within our power and let go of what isn't. - Epictetus
+It is not what happens to you, but how you react to it that matters. - Epictetus
+The whole future lies in uncertainty: live immediately. - Seneca
+Begin to live, and count each separate day as a mere gain, and a gift. - Marcus Aurelius
+It is not death that a man should fear, but he should fear never beginning to live. - Marcus Aurelius
+The happiness of your life depends upon the quality of your thoughts. - Marcus Aurelius
+You have death for a neighbor; constantly keep that in mind. - Seneca
+If it is not right, do not do it; if it is not true, do not say it. - Marcus Aurelius
+"Everything can be taken from a man but one thing: the last of the human freedoms - to choose one's attitude in any given circumstance." - Viktor E. Frankl
+"When we are no longer able to change a situation - we are challenged to change ourselves." - Viktor E. Frankl
+"Those who have a 'why' to live, can bear with almost any 'how'." - Viktor E. Frankl
+"We who lived in concentration camps can remember the men who walked through the huts comforting others, giving away their last piece of bread. They may have been few in number, but they show that even in such terrible times, good can triumph over evil." - Viktor E. Frankl
+"Happiness cannot be pursued; it must ensue." - Viktor E. Frankl
+"Life is never made unbearable by circumstances, but only by lack of meaning and purpose." - Viktor E. Frankl
+"Between stimulus and response there is a space. In that space is our power to choose our response. In our response lies our growth and our freedom." - Viktor E. Frankl
+"The point is not to avoid suffering, but to find meaning in it." - Viktor E. Frankl
+"We must continually strive to find meaning in life." - Viktor E. Frankl
