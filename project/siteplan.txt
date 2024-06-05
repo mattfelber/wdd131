@@ -1,0 +1,48 @@
+Site Name:
+Matt Felber's Terminal Playground
+Reason: This name reflects my personal website with a focus on a command-line aesthetic.
+Site Purpose:
+This website is a playful exploration of web development concepts, mimicking a classic terminal environment and allowing users to interact with basic commands.
+Scenarios:
+How do I navigate this website?
+What kind of projects can I find here?
+Color Schema:
+Primary Color: #0F0 (Lime Green) - Used for text, mimicking the classic green color seen in Matrix terminals.
+Secondary Color: #000 (Black) - Used for the background, creating a dark and immersive environment.
+Accent Color: #333 (Dark Gray) - Used for subtle highlights and user input.
+Typography:
+Font 1: "monospace" - Used for all text within the terminal window, mimicking the classic fixed-width font style.
+Wireframe:
+Mobile View:
+┌────────────────────────┐
+│ Matt Felber 
+ “Type --help for commands”
+└────────────────────────┘
+│ > _       
+└────────────────────────┘
+
+Desktop View:
+┌────────────────────────────────────────────────────┐
+│ Matt Felber
+“Type --help for commands”
+└────────────────────────────────────────────────────┘
+│ > _                                                
+└────────────────────────────────────────────────────┘
+
+CSS (basic.css):
+body {
+  font-family: monospace;
+  background-color: #f8f9fa;
+  color: #007bff;
+  margin: 0;
+  padding: 20px;
+}
+
+.command-prompt {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.user-input {
+  color: #000;}
+
