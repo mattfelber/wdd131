@@ -1,0 +1,131 @@
+body {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f0f0f0;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form-group {
+	background-color: #e0e6e9;
+	padding: 28px;
+	border-radius: 10px;
+	max-width: 500px;
+	border: 1.5px solid #4b8373;
+	margin-top: 15px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.75rem;
+	color: #1a6b5a;
+	border-bottom: 1px solid #62d3ad;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-top: 18px;
+	color: rgb(20, 20, 20)	;
+}
+
+input[type="text"], input[type="date"], select, textarea {
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: rgb(243, 248, 244);
+	display: block;
+}
+
+textarea {
+	resize: vertical;
+	height: 50px;
+	width: 400px;
+}
+
+/* stars */
+input[type="radio"] {
+	display: none;
+	position: relative;
+	caret-color: rgba(58, 153, 115, 0);
+}
+
+.stars {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: left;
+}
+
+.stars > label {
+	color: rgb(58, 167, 112);
+	width: 50px;
+	height: 30px;
+	font-size: 2rem;
+	margin-left: 5px;
+	display: flex;
+	align-items: center;
+	caret-color: rgba(20, 21, 20, 0); 
+}
+
+.stars > label:hover {
+	color: rgb(221, 194, 37);
+}
+
+.stars > label::before {
+	content: "\2606";
+}
+
+.stars input:checked ~ label::before {
+	content: "\2605";
+}
+
+fieldset {
+	padding: 0;
+}
+
+legend {
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.checkbox {
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+}
+
+.checkbox input[type="checkbox"] {
+	margin-right: 10px;
+	margin-top: 8px;
+}
+
+.checkbox label {
+	padding-bottom: 15px;
+}
+
+input[type="submit"]{
+	width: 100%;
+	background-color: #25ab6e;
+	color: white;
+	height: 50px;
+	font-weight: bold;
+	padding: 10px;
+	border-radius: 15px;
+	margin-top: 10px;
+}
+
+input[type="submit"]:hover{
+	background-color: #c6d4d4;
+	color: rgb(38, 99, 90);
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background: #1a6b5a;
+    color: #f2e9e4;
+	width: 100%;
+	margin-top: 10px;
+}
